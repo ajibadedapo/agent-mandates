@@ -141,6 +141,10 @@ For any agent that acts:
 6. For any action it took last week, can you name the mandate and the person who granted it?
 7. If its last run is retried, what happens twice?
 
+## Talks
+
+Slides from talks that introduce or apply the framework are in [talks](talks/).
+
 ## Related work
 
 This framework stands on older ideas and does not replace them.
