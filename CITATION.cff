@@ -1,0 +1,19 @@
+cff-version: 1.2.0
+message: "If you use or refer to this framework, please cite it as below."
+title: "Agent Mandates"
+abstract: "Agents act under a mandate, never under your identity. A framework for AI agent authority, revocation and audit."
+authors:
+  - family-names: "Ajibade"
+    given-names: "Hammed"
+version: "0"
+date-released: 2026-10-23
+license: CC-BY-4.0
+repository-code: "https://github.com/ajibadedapo/agent-mandates"
+url: "https://github.com/ajibadedapo/agent-mandates"
+keywords:
+  - ai-agents
+  - ai-security
+  - authorization
+  - delegation
+  - audit
+  - revocation

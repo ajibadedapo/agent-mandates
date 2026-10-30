@@ -1,0 +1,38 @@
+name: Implementation mapping
+description: Map a product, protocol or standard to the framework.
+title: "Mapping: "
+labels: ["mapping"]
+body:
+  - type: input
+    id: subject
+    attributes:
+      label: Product, protocol or standard
+      description: Name and version.
+    validations:
+      required: true
+  - type: textarea
+    id: coverage
+    attributes:
+      label: Coverage
+      description: Which mandate fields, principles and audit checks it meets, partly meets or does not meet.
+    validations:
+      required: true
+  - type: dropdown
+    id: level
+    attributes:
+      label: Maturity level it reaches
+      options:
+        - "0: Borrowed identity"
+        - "1: Separate credentials"
+        - "2: Mandated"
+        - "3: Accountable"
+        - Not sure
+    validations:
+      required: true
+  - type: textarea
+    id: sources
+    attributes:
+      label: Sources
+      description: Links to the public documentation you relied on.
+    validations:
+      required: true

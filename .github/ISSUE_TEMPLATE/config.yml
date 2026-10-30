@@ -1,0 +1,5 @@
+blank_issues_enabled: true
+contact_links:
+  - name: Read the framework
+    url: https://github.com/ajibadedapo/agent-mandates#readme
+    about: Check the principles, action classes and audit checklist before opening an issue.

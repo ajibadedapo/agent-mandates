@@ -1,0 +1,46 @@
+name: Incident pattern
+description: Report something an agent did, or nearly did, that a mandate should prevent.
+title: "Incident pattern: "
+labels: ["incident pattern"]
+body:
+  - type: markdown
+    attributes:
+      value: Remove names, secrets and anything identifying a person or organisation unless it is already public.
+  - type: textarea
+    id: what-happened
+    attributes:
+      label: What happened
+      description: What the agent did, and what it was meant to do.
+    validations:
+      required: true
+  - type: textarea
+    id: identity
+    attributes:
+      label: What the agent ran as
+      description: Whose credentials or tokens it used, and what limits applied.
+    validations:
+      required: true
+  - type: dropdown
+    id: action-class
+    attributes:
+      label: Action class
+      options:
+        - Read
+        - Recommend
+        - Execute
+        - Irreversible
+        - Not sure
+    validations:
+      required: true
+  - type: textarea
+    id: principle
+    attributes:
+      label: Principle or audit check
+      description: Which principle or check would have prevented it. Say "none" if no principle covers it.
+    validations:
+      required: true
+  - type: input
+    id: source
+    attributes:
+      label: Public source
+      description: A link, if the incident is public.
