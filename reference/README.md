@@ -83,3 +83,7 @@ verifyRecord(authority.record.entries(), { head: authority.record.head() });
 ## Licence
 
 [CC BY 4.0](../LICENSE), the same as the framework.
+
+## Licence
+
+The code in `reference/` is licensed under the [Apache License 2.0](LICENSE). The framework text in the rest of this repository stays under CC BY 4.0.

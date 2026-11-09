@@ -292,4 +292,6 @@ Feedback, objections and real-world examples are welcome as [issues](https://git
 
 ## Licence
 
-[CC BY 4.0](LICENSE). Use, adapt and build on it, including commercially, with attribution.
+The framework text is [CC BY 4.0](LICENSE). Use, adapt and build on it, including commercially, with attribution.
+
+The code in [`reference/`](reference/) is licensed under the [Apache License 2.0](reference/LICENSE), so teams can use it in their own systems.
